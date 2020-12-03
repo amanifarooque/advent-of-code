@@ -40,7 +40,7 @@ for p in passwords:
     else:
         print("Part 2: Password " + password + " does not pass rule " + str(rule)+ "\n")
 
-# # Part 1 Answer is 418
+# Part 1 Answer is 418
 print(str(validPasswords1) + " valid passwords for Part 1.")
 
 # Part 2 Answer is 616
