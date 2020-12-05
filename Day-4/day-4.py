@@ -32,7 +32,6 @@ def checkKey(dict, key):
 def fixType(string):
     if string:
         if string.isdecimal() and not(string.startswith("0")):
-            print(string)
             return int(string)
         else:
             return string
